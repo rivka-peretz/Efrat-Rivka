@@ -1,7 +1,10 @@
 const Product = ({product, deleteProductF}) => {
+
+
+
     return (
         <div  className="d-flex">
-            <h2>{product.name} ------- {product.amount}</h2>
+            <h1>rivkaa</h1>
             <button onClick={() => deleteProduct(product.name)}>X</button>
         </div>
     )
