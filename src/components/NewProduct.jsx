@@ -9,6 +9,10 @@ const NewProduct = (props) => {
         setName("");
         setAmount("");
     }
+    const F=()=>{
+        return "rivka"
+    }
+    
 
     return (
         <>
